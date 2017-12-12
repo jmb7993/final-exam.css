@@ -54,3 +54,7 @@ h1 {
   margin-bottom: 35px;
   border-bottom: 5px solid #E8E8E8;
 }
+.reveal-recipes{
+  padding: 5px;
+  background: lightblue;
+}
