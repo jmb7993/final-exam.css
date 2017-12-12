@@ -1,0 +1,39 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: darkgrey;
+}
+div.container {
+  background-color: pink;
+  padding: 20px 20px 20px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  overflow: auto;
+  }
+@media (min-width: 500px) {
+    div.first-column{
+      margin: 0 auto;
+      overflow: auto;
+    }
+    div.second-column{
+      margin: 0 auto;
+      overflow: auto;
+    }
+  }
+div.first-column{
+
+  width: 66%;
+  float:left;
+  padding-right: 5px;
+}
+div.second-column{
+  width: 33%;
+  float: none;
+  padding-left: 5px;
+}
+*{
+  box-sizing: border-box;
+  overflow: auto;
+}
