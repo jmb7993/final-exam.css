@@ -14,26 +14,43 @@ div.container {
   }
 @media (min-width: 500px) {
     div.first-column{
-      margin: 0 auto;
-      overflow: auto;
+      float: left;
+      width: 66%;
+      padding-right: 10px;
+      margin: auto;
     }
     div.second-column{
-      margin: 0 auto;
-      overflow: auto;
+      float: right;
+      width: 33%;
+      padding-left: 10px;
+      margin: auto;
     }
   }
-div.first-column{
-
-  width: 66%;
-  float:left;
-  padding-right: 5px;
-}
-div.second-column{
-  width: 33%;
-  float: none;
-  padding-left: 5px;
-}
 *{
   box-sizing: border-box;
   overflow: auto;
+}
+a {
+  color: #800000;
+}
+h3 {
+  font-weight: lighter;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-family: Georgia;
+}
+h2 {
+  margin-top: 0px;
+  font-size: 24px;
+  font-family: Georgia;
+  font-style: italic;
+}
+h1 {
+  font-family: Georgia;
+}
+.source{
+  margin-bottom: 35px;
+  border-bottom: 5px solid #E8E8E8;
 }
